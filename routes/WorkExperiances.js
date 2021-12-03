@@ -9,8 +9,6 @@ import {
 
 const router = express.Router();
 
-// import { validation } from "../middleware/validation.js";
-
 router.get("/", getWorkExperiances);
 router.post("/", createWorkExperiance);
 router.put("/:id", updateWorkExperiance);
